@@ -13,7 +13,7 @@ public class SavingsAccount {
     private String mode_of_operation;
 
     public double debitCash(double balance , double amount){
-        return Math.abs(balance - amount);
+        return (balance - amount);
 
     }
     public double creditAmounts(double amount){
